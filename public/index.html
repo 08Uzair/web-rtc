@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Video Call</title>
+    <style>
+        video { width: 45%; margin: 10px; border: 1px solid black; }
+        #container { display: flex; justify-content: center; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+    <h1>Simple WebRTC Video Call</h1>
+    <div id="container">
+        <video id="localVideo" autoplay playsinline muted></video>
+        <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
